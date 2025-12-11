@@ -1,0 +1,39 @@
+name: Idea
+description: 새로운 아이디어 제안
+title: "[idea] "
+labels: ["idea"]
+body:
+  - type: textarea
+    id: concept
+    attributes:
+      label: 컨셉
+      description: 아이디어의 핵심 컨셉을 설명해주세요
+      placeholder: 어떤 아이디어인가요?
+    validations:
+      required: true
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: 영역
+      description: 어느 영역에 해당하나요?
+      options:
+        - game
+        - backend
+        - analytics
+        - marketing
+        - platform
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected_impact
+    attributes:
+      label: 기대 효과
+      description: 이 아이디어가 가져올 효과는 무엇인가요?
+
+  - type: textarea
+    id: references
+    attributes:
+      label: 참고 자료
+      description: 관련 레퍼런스가 있다면 공유해주세요

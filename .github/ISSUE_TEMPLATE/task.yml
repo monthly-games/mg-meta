@@ -1,0 +1,71 @@
+name: Task
+description: 개발 작업 정의
+title: "[task] "
+labels: ["task"]
+body:
+  - type: input
+    id: task_id
+    attributes:
+      label: Task ID
+      placeholder: "GAME-0001-123"
+    validations:
+      required: true
+
+  - type: input
+    id: game_id
+    attributes:
+      label: Game ID
+      placeholder: "game_0001"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - game
+        - backend
+        - analytics
+        - marketing
+    validations:
+      required: true
+
+  - type: dropdown
+    id: type
+    attributes:
+      label: Type
+      options:
+        - feature
+        - bug
+        - task
+        - chore
+    validations:
+      required: true
+
+  - type: textarea
+    id: spec_json
+    attributes:
+      label: Spec JSON
+      description: 작업 명세 JSON
+      render: json
+      value: |
+        {
+          "goal": "",
+          "acceptance_criteria": [],
+          "target_files": [],
+          "non_goals": [],
+          "related_docs": [],
+          "constraints": []
+        }
+    validations:
+      required: true
+
+  - type: dropdown
+    id: complexity
+    attributes:
+      label: Complexity
+      options:
+        - S
+        - M
+        - L

@@ -1,0 +1,54 @@
+{
+  "meta": {
+    "game_id": "game_000X",
+    "code_name": "MG-000X",
+    "title_kr": "게임 한글명",
+    "title_en": "Game English Name",
+    "version": "1.0.0",
+    "last_updated": "2025-01-01"
+  },
+  "overview": {
+    "genre_tags": ["puzzle", "idle", "jrpg"],
+    "target_audience": {
+      "age": "15-35",
+      "region": ["KR", "SEA"],
+      "play_style": "casual"
+    },
+    "core_loop": "간략한 코어 루프 설명",
+    "unique_selling_point": "차별화 포인트"
+  },
+  "gameplay": {
+    "core_mechanics": [
+      {
+        "name": "메카닉 이름",
+        "description": "설명"
+      }
+    ],
+    "progression": {
+      "type": "level | stage | story",
+      "description": "진행 방식 설명"
+    },
+    "session_length": "5-10분"
+  },
+  "economy": {
+    "currencies": [
+      {
+        "name": "골드",
+        "type": "soft",
+        "sources": ["스테이지 클리어", "방치 수익"],
+        "sinks": ["장비 강화", "상점 구매"]
+      }
+    ],
+    "monetization": {
+      "model": "F2P + IAP",
+      "iap_items": ["보석 패키지", "월정액"],
+      "ad_placements": ["보상형 광고", "인터스티셜"]
+    }
+  },
+  "technical": {
+    "platform": ["Android", "iOS"],
+    "engine": "Flutter + Flame",
+    "backend": "Firebase",
+    "analytics": "GA4 + BigQuery"
+  }
+}

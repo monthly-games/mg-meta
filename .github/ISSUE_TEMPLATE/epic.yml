@@ -1,0 +1,68 @@
+name: Epic
+description: 대규모 기능/목표 정의
+title: "[epic] "
+labels: ["epic"]
+body:
+  - type: input
+    id: game_id
+    attributes:
+      label: Game ID
+      description: 관련 게임 ID (공통 플랫폼은 'platform')
+      placeholder: "game_0001"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: lifecycle
+    attributes:
+      label: Lifecycle
+      options:
+        - Idea
+        - Design
+        - Dev
+        - QA
+        - Live
+        - Retire
+    validations:
+      required: true
+
+  - type: textarea
+    id: goal
+    attributes:
+      label: 목표
+      description: 이 Epic의 목표를 명확히 설명해주세요
+    validations:
+      required: true
+
+  - type: textarea
+    id: scope
+    attributes:
+      label: 범위
+      description: 포함되는 주요 작업 항목들
+    validations:
+      required: true
+
+  - type: textarea
+    id: success_criteria
+    attributes:
+      label: 성공 기준
+      description: Epic 완료를 판단할 수 있는 기준
+
+  - type: dropdown
+    id: impact
+    attributes:
+      label: Impact
+      options:
+        - High
+        - Medium
+        - Low
+
+  - type: dropdown
+    id: effort
+    attributes:
+      label: Effort
+      options:
+        - S
+        - M
+        - L
+        - XL

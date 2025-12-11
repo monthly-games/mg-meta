@@ -1,0 +1,28 @@
+{
+  "task_id": "GAME-000X-XXX",
+  "game_id": "game_000X",
+  "area": "game | backend | analytics | marketing",
+  "type": "feature | bug | task | chore",
+  "spec_json": {
+    "goal": "이 작업의 목표를 한 문장으로 설명",
+    "acceptance_criteria": [
+      "AC1: 구체적인 완료 조건 1",
+      "AC2: 구체적인 완료 조건 2"
+    ],
+    "target_files": [
+      "game/lib/features/xxx/**",
+      "game/lib/xxx.dart"
+    ],
+    "non_goals": [
+      "이 작업에서 다루지 않을 것들"
+    ],
+    "related_docs": [
+      "docs/design/gdd_game_000X.json#section",
+      "docs/design/economy.json"
+    ],
+    "constraints": [
+      "공통 이벤트 스키마 default_v1 사용",
+      "기존 API 호환성 유지"
+    ]
+  }
+}
