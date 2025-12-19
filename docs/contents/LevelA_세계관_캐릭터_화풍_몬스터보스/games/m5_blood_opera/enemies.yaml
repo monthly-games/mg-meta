@@ -1,0 +1,78 @@
+game_id: m5_blood_opera
+enemies:
+  - id: m5_blood_opera_e_n01
+    tier: normal
+    name_ko: "가디언 1"
+    family_ko: "귀족 병기/혈문양 수호자/무대 장치"
+    visual_tags: ['gothic', 'stage', 'crimson', '2d_sprite', 'sharp_silhouette']
+    behavior: flanker
+  - id: m5_blood_opera_e_n02
+    tier: normal
+    name_ko: "스펙터 2"
+    family_ko: "귀족 병기/혈문양 수호자/무대 장치"
+    visual_tags: ['gothic', 'stage', 'crimson', 'readable_shape', 'sharp_silhouette']
+    behavior: melee
+  - id: m5_blood_opera_e_n03
+    tier: normal
+    name_ko: "가디언 3"
+    family_ko: "귀족 병기/혈문양 수호자/무대 장치"
+    visual_tags: ['gothic', 'stage', 'crimson', 'readable_shape', '2d_sprite']
+    behavior: support
+  - id: m5_blood_opera_e_n04
+    tier: normal
+    name_ko: "스펙터 4"
+    family_ko: "귀족 병기/혈문양 수호자/무대 장치"
+    visual_tags: ['gothic', 'stage', 'crimson', 'sharp_silhouette', '2d_sprite']
+    behavior: flanker
+  - id: m5_blood_opera_e_n05
+    tier: normal
+    name_ko: "코어러 5"
+    family_ko: "귀족 병기/혈문양 수호자/무대 장치"
+    visual_tags: ['gothic', 'stage', 'crimson', 'readable_shape', '2d_sprite']
+    behavior: ranged
+  - id: m5_blood_opera_e_n06
+    tier: normal
+    name_ko: "드론 6"
+    family_ko: "귀족 병기/혈문양 수호자/무대 장치"
+    visual_tags: ['gothic', 'stage', 'crimson', '2d_sprite', 'readable_shape']
+    behavior: ranged
+  - id: m5_blood_opera_e_n07
+    tier: normal
+    name_ko: "스펙터 7"
+    family_ko: "귀족 병기/혈문양 수호자/무대 장치"
+    visual_tags: ['gothic', 'stage', 'crimson', 'sharp_silhouette', 'readable_shape']
+    behavior: support
+  - id: m5_blood_opera_e_n08
+    tier: normal
+    name_ko: "리퍼 8"
+    family_ko: "귀족 병기/혈문양 수호자/무대 장치"
+    visual_tags: ['gothic', 'stage', 'crimson', 'readable_shape', '2d_sprite']
+    behavior: flanker
+  - id: m5_blood_opera_e_el01
+    tier: elite
+    name_ko: "집행 1"
+    family_ko: "귀족 병기/혈문양 수호자/무대 장치"
+    visual_tags: ['gothic', 'stage', 'crimson', 'unique_weapon', 'armor_plate']
+    behavior: shield
+    mechanic: "약점 노출"
+  - id: m5_blood_opera_e_el02
+    tier: elite
+    name_ko: "베테랑 2"
+    family_ko: "귀족 병기/혈문양 수호자/무대 장치"
+    visual_tags: ['gothic', 'stage', 'crimson', 'unique_weapon', 'armor_plate']
+    behavior: summoner
+    mechanic: "보호막"
+  - id: m5_blood_opera_e_el03
+    tier: elite
+    name_ko: "집행 3"
+    family_ko: "귀족 병기/혈문양 수호자/무대 장치"
+    visual_tags: ['gothic', 'stage', 'crimson', 'glow_core', 'unique_weapon']
+    behavior: control
+    mechanic: "광역 경고"
+  - id: m5_blood_opera_e_el04
+    tier: elite
+    name_ko: "집행 4"
+    family_ko: "귀족 병기/혈문양 수호자/무대 장치"
+    visual_tags: ['gothic', 'stage', 'crimson', 'armor_plate', 'glow_core']
+    behavior: summoner
+    mechanic: "약점 노출"

@@ -1,0 +1,21 @@
+game_id: m8_arcane_prison
+title_ko: "아케인 프리즌"
+signature_ko: "룬 패턴 + 쇠창살 실루엣"
+palette_hex:
+  background: "#0A0A0F"
+  primary: "#7A5CFF"
+  accent: "#C8FF6A"
+  highlight: "#E6E6E6"
+render:
+  line_weight: "medium"
+  shading: "selective_hard"
+  saturation_base: "low"
+  saturation_accent: "high_point"
+materials_focus: ["cloth", "leather", "metal"]
+ui_theme:
+  primary: "#7A5CFF"
+  accent: "#C8FF6A"
+  panel_texture: "prison"
+comfyui:
+  prompt_add_positive: "prison arcane bargain, 룬 패턴 + 쇠창살 실루엣"
+  prompt_add_negative: "explicit, porn, minor, chibi, exaggerated body focus"

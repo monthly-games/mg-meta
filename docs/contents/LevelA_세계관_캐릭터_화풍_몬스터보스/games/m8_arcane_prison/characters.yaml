@@ -1,0 +1,122 @@
+game_id: m8_arcane_prison
+characters:
+  - id: m8_arcane_prison_c01
+    name_ko: "바인"
+    archetype: cynical_ace
+    role: dps
+    element: arc
+    weapon: sniper
+    silhouette_ko: "짧은 재킷 + 부츠"
+    personality_tags: ['낙관', '완벽주의', '의심']
+    relationship_hooks: ['rivals_to_allies', 'teasing']
+    costume_themes: ['베이스', '드레스', '정장']
+  - id: m8_arcane_prison_c02
+    name_ko: "키스"
+    archetype: devoted_guardian
+    role: control
+    element: cryo
+    weapon: smg
+    silhouette_ko: "무거운 장비 실루엣(탱커)"
+    personality_tags: ['완벽주의', '책임감', '다정']
+    relationship_hooks: ['high_status_low_morals', 'forbidden_contract']
+    costume_themes: ['시즌2', '전술', '베이스']
+  - id: m8_arcane_prison_c03
+    name_ko: "룬"
+    archetype: playful_trickster
+    role: tank
+    element: kinetic
+    weapon: rifle
+    silhouette_ko: "가늘고 긴 실루엣(우아)"
+    personality_tags: ['다정', '냉정', '무심']
+    relationship_hooks: ['high_status_low_morals', 'teasing']
+    costume_themes: ['드레스', '베이스', '시즌1']
+  - id: m8_arcane_prison_c04
+    name_ko: "에테르"
+    archetype: authoritative_leader
+    role: breaker
+    element: thermal
+    weapon: staff
+    silhouette_ko: "비대칭 코트 + 하이칼라"
+    personality_tags: ['정직', '의심', '비관']
+    relationship_hooks: ['forbidden_contract', 'gentle_monster']
+    costume_themes: ['시즌1', '정장', '시즌2']
+  - id: m8_arcane_prison_c05
+    name_ko: "모스"
+    archetype: forbidden_researcher
+    role: support
+    element: toxic
+    weapon: blade
+    silhouette_ko: "가늘고 긴 실루엣(우아)"
+    personality_tags: ['무심', '냉정', '완벽주의']
+    relationship_hooks: ['gentle_monster', 'forbidden_contract']
+    costume_themes: ['의식복', '시즌1', '작업복']
+  - id: m8_arcane_prison_c06
+    name_ko: "셀"
+    archetype: vengeful_hunter
+    role: dps
+    element: arc
+    weapon: shotgun
+    silhouette_ko: "무거운 장비 실루엣(탱커)"
+    personality_tags: ['의심', '충성', '정직']
+    relationship_hooks: ['teasing', 'forbidden_contract']
+    costume_themes: ['전술', '작업복', '정장']
+  - id: m8_arcane_prison_c07
+    name_ko: "도트"
+    archetype: stoic_healer
+    role: control
+    element: cryo
+    weapon: sniper
+    silhouette_ko: "무거운 장비 실루엣(탱커)"
+    personality_tags: ['충성', '낙관', '냉정']
+    relationship_hooks: ['stoic_protect', 'gentle_monster']
+    costume_themes: ['정장', '시즌1', '드레스']
+  - id: m8_arcane_prison_c08
+    name_ko: "세이드"
+    archetype: silent_sniper
+    role: tank
+    element: kinetic
+    weapon: smg
+    silhouette_ko: "장갑/벨트가 많은 전술 실루엣"
+    personality_tags: ['냉정', '정직', '다정']
+    relationship_hooks: ['rivals_to_allies', 'forbidden_contract']
+    costume_themes: ['시즌2', '전술', '베이스']
+  - id: m8_arcane_prison_c09
+    name_ko: "크로우"
+    archetype: feral_bruiser
+    role: breaker
+    element: thermal
+    weapon: rifle
+    silhouette_ko: "스카프/망토 포인트"
+    personality_tags: ['낙관', '무심', '충성']
+    relationship_hooks: ['gentle_monster', 'forbidden_contract']
+    costume_themes: ['베이스', '작업복', '전술']
+  - id: m8_arcane_prison_c10
+    name_ko: "릴"
+    archetype: elegant_noble
+    role: support
+    element: toxic
+    weapon: staff
+    silhouette_ko: "장갑/벨트가 많은 전술 실루엣"
+    personality_tags: ['도발', '허무', '비관']
+    relationship_hooks: ['truth_and_lies', 'gentle_monster']
+    costume_themes: ['시즌2', '전술', '시즌1']
+  - id: m8_arcane_prison_c11
+    name_ko: "폴"
+    archetype: hollow_android
+    role: dps
+    element: arc
+    weapon: blade
+    silhouette_ko: "스카프/망토 포인트"
+    personality_tags: ['비관', '다정', '도발']
+    relationship_hooks: ['rivals_to_allies', 'stoic_protect']
+    costume_themes: ['작업복', '베이스', '정장']
+  - id: m8_arcane_prison_c12
+    name_ko: "글림"
+    archetype: double_edge
+    role: control
+    element: cryo
+    weapon: shotgun
+    silhouette_ko: "머리장식/헤드셋 포인트"
+    personality_tags: ['낙관', '비관', '책임감']
+    relationship_hooks: ['gentle_monster', 'forbidden_contract']
+    costume_themes: ['작업복', '시즌2', '전술']

@@ -1,0 +1,12 @@
+game_id: m5_blood_opera
+bosses:
+  - id: m5_blood_opera_boss_mid
+    name_ko: "중간보스: 주술사"
+    phases: 2
+    signature_mechanics: ['브레이크 게이지', '패턴 경고-회피']
+    drops: ['장비 재료', '승급 파편', '코스튬 토큰(낮은 확률)']
+  - id: m5_blood_opera_boss_final
+    name_ko: "최종보스: 프로토콜 코어"
+    phases: 3
+    signature_mechanics: ['역상(디버프 반전)', '시간 제한 DPS 체크', '약점 순환']
+    drops: ['전설 장비 재료', '전용 칭호', '시즌 이벤트 키']

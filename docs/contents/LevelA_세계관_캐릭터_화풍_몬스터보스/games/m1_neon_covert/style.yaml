@@ -1,0 +1,21 @@
+game_id: m1_neon_covert
+title_ko: "네온 코버트"
+signature_ko: "네온 라인 + 전술 실루엣"
+palette_hex:
+  background: "#0E0F1A"
+  primary: "#19F2FF"
+  accent: "#FF3DA5"
+  highlight: "#E6E6E6"
+render:
+  line_weight: "medium"
+  shading: "selective_hard"
+  saturation_base: "low"
+  saturation_accent: "high_point"
+materials_focus: ["cloth", "leather", "metal"]
+ui_theme:
+  primary: "#19F2FF"
+  accent: "#FF3DA5"
+  panel_texture: "neon"
+comfyui:
+  prompt_add_positive: "neon city covert_ops, 네온 라인 + 전술 실루엣"
+  prompt_add_negative: "explicit, porn, minor, chibi, exaggerated body focus"

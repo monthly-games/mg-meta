@@ -1,0 +1,122 @@
+game_id: m11_underworld_auction
+characters:
+  - id: m11_underworld_auction_c01
+    name_ko: "블랙"
+    archetype: cynical_ace
+    role: dps
+    element: arc
+    weapon: sniper
+    silhouette_ko: "긴 머리 + 단단한 어깨 라인"
+    personality_tags: ['충성', '무심', '허무']
+    relationship_hooks: ['soft_power', 'truth_and_lies']
+    costume_themes: ['작업복', '베이스', '드레스']
+  - id: m11_underworld_auction_c02
+    name_ko: "리치"
+    archetype: devoted_guardian
+    role: control
+    element: cryo
+    weapon: smg
+    silhouette_ko: "비대칭 코트 + 하이칼라"
+    personality_tags: ['도발', '냉정', '다정']
+    relationship_hooks: ['forbidden_contract', 'soft_power']
+    costume_themes: ['시즌2', '작업복', '베이스']
+  - id: m11_underworld_auction_c03
+    name_ko: "오닉스"
+    archetype: playful_trickster
+    role: tank
+    element: kinetic
+    weapon: rifle
+    silhouette_ko: "장갑/벨트가 많은 전술 실루엣"
+    personality_tags: ['책임감', '다정', '허무']
+    relationship_hooks: ['truth_and_lies', 'forbidden_contract']
+    costume_themes: ['베이스', '전술', '작업복']
+  - id: m11_underworld_auction_c04
+    name_ko: "골드"
+    archetype: authoritative_leader
+    role: breaker
+    element: thermal
+    weapon: staff
+    silhouette_ko: "무거운 장비 실루엣(탱커)"
+    personality_tags: ['의심', '비관', '허무']
+    relationship_hooks: ['high_status_low_morals', 'truth_and_lies']
+    costume_themes: ['정장', '베이스', '의식복']
+  - id: m11_underworld_auction_c05
+    name_ko: "실버"
+    archetype: forbidden_researcher
+    role: support
+    element: toxic
+    weapon: blade
+    silhouette_ko: "무거운 장비 실루엣(탱커)"
+    personality_tags: ['낙관', '냉정', '완벽주의']
+    relationship_hooks: ['teasing', 'soft_power']
+    costume_themes: ['시즌1', '전술', '드레스']
+  - id: m11_underworld_auction_c06
+    name_ko: "베라"
+    archetype: vengeful_hunter
+    role: dps
+    element: arc
+    weapon: shotgun
+    silhouette_ko: "가늘고 긴 실루엣(우아)"
+    personality_tags: ['비관', '다정', '정직']
+    relationship_hooks: ['rivals_to_allies', 'high_status_low_morals']
+    costume_themes: ['작업복', '베이스', '전술']
+  - id: m11_underworld_auction_c07
+    name_ko: "코인"
+    archetype: stoic_healer
+    role: control
+    element: cryo
+    weapon: sniper
+    silhouette_ko: "긴 머리 + 단단한 어깨 라인"
+    personality_tags: ['정직', '책임감', '의심']
+    relationship_hooks: ['forbidden_contract', 'stoic_protect']
+    costume_themes: ['정장', '시즌1', '의식복']
+  - id: m11_underworld_auction_c08
+    name_ko: "딜"
+    archetype: silent_sniper
+    role: tank
+    element: kinetic
+    weapon: smg
+    silhouette_ko: "가늘고 긴 실루엣(우아)"
+    personality_tags: ['비관', '낙관', '냉정']
+    relationship_hooks: ['teasing', 'soft_power']
+    costume_themes: ['시즌2', '정장', '전술']
+  - id: m11_underworld_auction_c09
+    name_ko: "레저"
+    archetype: feral_bruiser
+    role: breaker
+    element: thermal
+    weapon: rifle
+    silhouette_ko: "무거운 장비 실루엣(탱커)"
+    personality_tags: ['낙관', '비관', '도발']
+    relationship_hooks: ['gentle_monster', 'truth_and_lies']
+    costume_themes: ['정장', '드레스', '전술']
+  - id: m11_underworld_auction_c10
+    name_ko: "비스"
+    archetype: elegant_noble
+    role: support
+    element: toxic
+    weapon: staff
+    silhouette_ko: "스카프/망토 포인트"
+    personality_tags: ['낙관', '완벽주의', '허무']
+    relationship_hooks: ['rivals_to_allies', 'gentle_monster']
+    costume_themes: ['시즌1', '베이스', '시즌2']
+  - id: m11_underworld_auction_c11
+    name_ko: "나인"
+    archetype: hollow_android
+    role: dps
+    element: arc
+    weapon: blade
+    silhouette_ko: "머리장식/헤드셋 포인트"
+    personality_tags: ['완벽주의', '책임감', '냉정']
+    relationship_hooks: ['soft_power', 'gentle_monster']
+    costume_themes: ['전술', '시즌2', '시즌1']
+  - id: m11_underworld_auction_c12
+    name_ko: "로터"
+    archetype: double_edge
+    role: control
+    element: cryo
+    weapon: shotgun
+    silhouette_ko: "가늘고 긴 실루엣(우아)"
+    personality_tags: ['도발', '허무', '비관']
+    relationship_hooks: ['truth_and_lies', 'high_status_low_morals']
+    costume_themes: ['시즌1', '드레스', '작업복']

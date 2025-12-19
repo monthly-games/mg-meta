@@ -1,0 +1,122 @@
+game_id: m1_neon_covert
+characters:
+  - id: m1_neon_covert_c01
+    name_ko: "리아"
+    archetype: cynical_ace
+    role: dps
+    element: arc
+    weapon: sniper
+    silhouette_ko: "머리장식/헤드셋 포인트"
+    personality_tags: ['냉정', '책임감', '충성']
+    relationship_hooks: ['teasing', 'soft_power']
+    costume_themes: ['드레스', '의식복', '전술']
+  - id: m1_neon_covert_c02
+    name_ko: "제로"
+    archetype: devoted_guardian
+    role: control
+    element: cryo
+    weapon: smg
+    silhouette_ko: "비대칭 코트 + 하이칼라"
+    personality_tags: ['의심', '냉정', '비관']
+    relationship_hooks: ['rivals_to_allies', 'soft_power']
+    costume_themes: ['시즌1', '의식복', '작업복']
+  - id: m1_neon_covert_c03
+    name_ko: "바이스"
+    archetype: playful_trickster
+    role: tank
+    element: kinetic
+    weapon: rifle
+    silhouette_ko: "머리장식/헤드셋 포인트"
+    personality_tags: ['비관', '낙관', '무심']
+    relationship_hooks: ['teasing', 'soft_power']
+    costume_themes: ['작업복', '시즌1', '드레스']
+  - id: m1_neon_covert_c04
+    name_ko: "노아"
+    archetype: authoritative_leader
+    role: breaker
+    element: thermal
+    weapon: staff
+    silhouette_ko: "장갑/벨트가 많은 전술 실루엣"
+    personality_tags: ['허무', '무심', '의심']
+    relationship_hooks: ['gentle_monster', 'high_status_low_morals']
+    costume_themes: ['전술', '시즌1', '정장']
+  - id: m1_neon_covert_c05
+    name_ko: "렉스"
+    archetype: forbidden_researcher
+    role: support
+    element: toxic
+    weapon: blade
+    silhouette_ko: "스카프/망토 포인트"
+    personality_tags: ['도발', '다정', '완벽주의']
+    relationship_hooks: ['soft_power', 'stoic_protect']
+    costume_themes: ['의식복', '정장', '베이스']
+  - id: m1_neon_covert_c06
+    name_ko: "비비"
+    archetype: vengeful_hunter
+    role: dps
+    element: arc
+    weapon: shotgun
+    silhouette_ko: "무거운 장비 실루엣(탱커)"
+    personality_tags: ['무심', '도발', '완벽주의']
+    relationship_hooks: ['truth_and_lies', 'high_status_low_morals']
+    costume_themes: ['정장', '의식복', '베이스']
+  - id: m1_neon_covert_c07
+    name_ko: "카이"
+    archetype: stoic_healer
+    role: control
+    element: cryo
+    weapon: sniper
+    silhouette_ko: "머리장식/헤드셋 포인트"
+    personality_tags: ['낙관', '도발', '다정']
+    relationship_hooks: ['soft_power', 'rivals_to_allies']
+    costume_themes: ['시즌2', '정장', '전술']
+  - id: m1_neon_covert_c08
+    name_ko: "루멘"
+    archetype: silent_sniper
+    role: tank
+    element: kinetic
+    weapon: smg
+    silhouette_ko: "머리장식/헤드셋 포인트"
+    personality_tags: ['무심', '다정', '낙관']
+    relationship_hooks: ['gentle_monster', 'rivals_to_allies']
+    costume_themes: ['의식복', '정장', '시즌1']
+  - id: m1_neon_covert_c09
+    name_ko: "시엘"
+    archetype: feral_bruiser
+    role: breaker
+    element: thermal
+    weapon: rifle
+    silhouette_ko: "후드 + 마스크 요소"
+    personality_tags: ['도발', '비관', '허무']
+    relationship_hooks: ['forbidden_contract', 'rivals_to_allies']
+    costume_themes: ['의식복', '정장', '시즌2']
+  - id: m1_neon_covert_c10
+    name_ko: "핀"
+    archetype: elegant_noble
+    role: support
+    element: toxic
+    weapon: staff
+    silhouette_ko: "무거운 장비 실루엣(탱커)"
+    personality_tags: ['완벽주의', '비관', '충성']
+    relationship_hooks: ['gentle_monster', 'high_status_low_morals']
+    costume_themes: ['전술', '시즌1', '베이스']
+  - id: m1_neon_covert_c11
+    name_ko: "아르카"
+    archetype: hollow_android
+    role: dps
+    element: arc
+    weapon: blade
+    silhouette_ko: "후드 + 마스크 요소"
+    personality_tags: ['냉정', '허무', '완벽주의']
+    relationship_hooks: ['gentle_monster', 'truth_and_lies']
+    costume_themes: ['의식복', '시즌2', '시즌1']
+  - id: m1_neon_covert_c12
+    name_ko: "네온"
+    archetype: double_edge
+    role: control
+    element: cryo
+    weapon: shotgun
+    silhouette_ko: "머리장식/헤드셋 포인트"
+    personality_tags: ['다정', '충성', '완벽주의']
+    relationship_hooks: ['rivals_to_allies', 'teasing']
+    costume_themes: ['드레스', '시즌1', '시즌2']

@@ -1,0 +1,122 @@
+game_id: m10_glass_garden
+characters:
+  - id: m10_glass_garden_c01
+    name_ko: "라미"
+    archetype: cynical_ace
+    role: dps
+    element: arc
+    weapon: sniper
+    silhouette_ko: "스카프/망토 포인트"
+    personality_tags: ['무심', '완벽주의', '충성']
+    relationship_hooks: ['stoic_protect', 'gentle_monster']
+    costume_themes: ['시즌2', '작업복', '드레스']
+  - id: m10_glass_garden_c02
+    name_ko: "글라스"
+    archetype: devoted_guardian
+    role: control
+    element: cryo
+    weapon: smg
+    silhouette_ko: "가늘고 긴 실루엣(우아)"
+    personality_tags: ['책임감', '비관', '도발']
+    relationship_hooks: ['truth_and_lies', 'stoic_protect']
+    costume_themes: ['드레스', '전술', '시즌2']
+  - id: m10_glass_garden_c03
+    name_ko: "노아르"
+    archetype: playful_trickster
+    role: tank
+    element: kinetic
+    weapon: rifle
+    silhouette_ko: "긴 머리 + 단단한 어깨 라인"
+    personality_tags: ['의심', '충성', '다정']
+    relationship_hooks: ['stoic_protect', 'gentle_monster']
+    costume_themes: ['전술', '시즌2', '드레스']
+  - id: m10_glass_garden_c04
+    name_ko: "피오"
+    archetype: authoritative_leader
+    role: breaker
+    element: thermal
+    weapon: staff
+    silhouette_ko: "짧은 재킷 + 부츠"
+    personality_tags: ['허무', '충성', '완벽주의']
+    relationship_hooks: ['truth_and_lies', 'rivals_to_allies']
+    costume_themes: ['정장', '드레스', '작업복']
+  - id: m10_glass_garden_c05
+    name_ko: "실"
+    archetype: forbidden_researcher
+    role: support
+    element: toxic
+    weapon: blade
+    silhouette_ko: "짧은 재킷 + 부츠"
+    personality_tags: ['다정', '냉정', '충성']
+    relationship_hooks: ['forbidden_contract', 'soft_power']
+    costume_themes: ['정장', '베이스', '전술']
+  - id: m10_glass_garden_c06
+    name_ko: "라이트"
+    archetype: vengeful_hunter
+    role: dps
+    element: arc
+    weapon: shotgun
+    silhouette_ko: "가늘고 긴 실루엣(우아)"
+    personality_tags: ['정직', '책임감', '냉정']
+    relationship_hooks: ['forbidden_contract', 'truth_and_lies']
+    costume_themes: ['드레스', '의식복', '시즌2']
+  - id: m10_glass_garden_c07
+    name_ko: "베일"
+    archetype: stoic_healer
+    role: control
+    element: cryo
+    weapon: sniper
+    silhouette_ko: "머리장식/헤드셋 포인트"
+    personality_tags: ['냉정', '충성', '허무']
+    relationship_hooks: ['truth_and_lies', 'soft_power']
+    costume_themes: ['드레스', '전술', '작업복']
+  - id: m10_glass_garden_c08
+    name_ko: "아우라"
+    archetype: silent_sniper
+    role: tank
+    element: kinetic
+    weapon: smg
+    silhouette_ko: "후드 + 마스크 요소"
+    personality_tags: ['냉정', '책임감', '다정']
+    relationship_hooks: ['forbidden_contract', 'stoic_protect']
+    costume_themes: ['전술', '드레스', '시즌1']
+  - id: m10_glass_garden_c09
+    name_ko: "스노"
+    archetype: feral_bruiser
+    role: breaker
+    element: thermal
+    weapon: rifle
+    silhouette_ko: "장갑/벨트가 많은 전술 실루엣"
+    personality_tags: ['의심', '낙관', '정직']
+    relationship_hooks: ['truth_and_lies', 'gentle_monster']
+    costume_themes: ['시즌1', '베이스', '드레스']
+  - id: m10_glass_garden_c10
+    name_ko: "클로버"
+    archetype: elegant_noble
+    role: support
+    element: toxic
+    weapon: staff
+    silhouette_ko: "무거운 장비 실루엣(탱커)"
+    personality_tags: ['책임감', '의심', '완벽주의']
+    relationship_hooks: ['stoic_protect', 'high_status_low_morals']
+    costume_themes: ['의식복', '드레스', '작업복']
+  - id: m10_glass_garden_c11
+    name_ko: "뮤트"
+    archetype: hollow_android
+    role: dps
+    element: arc
+    weapon: blade
+    silhouette_ko: "가늘고 긴 실루엣(우아)"
+    personality_tags: ['허무', '낙관', '다정']
+    relationship_hooks: ['stoic_protect', 'rivals_to_allies']
+    costume_themes: ['시즌1', '의식복', '베이스']
+  - id: m10_glass_garden_c12
+    name_ko: "사일런"
+    archetype: double_edge
+    role: control
+    element: cryo
+    weapon: shotgun
+    silhouette_ko: "긴 머리 + 단단한 어깨 라인"
+    personality_tags: ['다정', '책임감', '완벽주의']
+    relationship_hooks: ['forbidden_contract', 'rivals_to_allies']
+    costume_themes: ['전술', '의식복', '베이스']

@@ -1,0 +1,122 @@
+game_id: m3_steel_seraph
+characters:
+  - id: m3_steel_seraph_c01
+    name_ko: "알테"
+    archetype: cynical_ace
+    role: dps
+    element: arc
+    weapon: sniper
+    silhouette_ko: "후드 + 마스크 요소"
+    personality_tags: ['책임감', '정직', '의심']
+    relationship_hooks: ['forbidden_contract', 'teasing']
+    costume_themes: ['시즌2', '드레스', '베이스']
+  - id: m3_steel_seraph_c02
+    name_ko: "그레이스"
+    archetype: devoted_guardian
+    role: control
+    element: cryo
+    weapon: smg
+    silhouette_ko: "무거운 장비 실루엣(탱커)"
+    personality_tags: ['무심', '다정', '낙관']
+    relationship_hooks: ['high_status_low_morals', 'truth_and_lies']
+    costume_themes: ['드레스', '전술', '시즌2']
+  - id: m3_steel_seraph_c03
+    name_ko: "오르트"
+    archetype: playful_trickster
+    role: tank
+    element: kinetic
+    weapon: rifle
+    silhouette_ko: "무거운 장비 실루엣(탱커)"
+    personality_tags: ['무심', '책임감', '완벽주의']
+    relationship_hooks: ['gentle_monster', 'rivals_to_allies']
+    costume_themes: ['정장', '작업복', '의식복']
+  - id: m3_steel_seraph_c04
+    name_ko: "벨"
+    archetype: authoritative_leader
+    role: breaker
+    element: thermal
+    weapon: staff
+    silhouette_ko: "가늘고 긴 실루엣(우아)"
+    personality_tags: ['도발', '완벽주의', '무심']
+    relationship_hooks: ['stoic_protect', 'high_status_low_morals']
+    costume_themes: ['드레스', '시즌2', '베이스']
+  - id: m3_steel_seraph_c05
+    name_ko: "루카"
+    archetype: forbidden_researcher
+    role: support
+    element: toxic
+    weapon: blade
+    silhouette_ko: "머리장식/헤드셋 포인트"
+    personality_tags: ['무심', '도발', '허무']
+    relationship_hooks: ['gentle_monster', 'forbidden_contract']
+    costume_themes: ['베이스', '시즌2', '전술']
+  - id: m3_steel_seraph_c06
+    name_ko: "아이린"
+    archetype: vengeful_hunter
+    role: dps
+    element: arc
+    weapon: shotgun
+    silhouette_ko: "비대칭 코트 + 하이칼라"
+    personality_tags: ['완벽주의', '책임감', '비관']
+    relationship_hooks: ['soft_power', 'truth_and_lies']
+    costume_themes: ['드레스', '작업복', '정장']
+  - id: m3_steel_seraph_c07
+    name_ko: "스틸"
+    archetype: stoic_healer
+    role: control
+    element: cryo
+    weapon: sniper
+    silhouette_ko: "가늘고 긴 실루엣(우아)"
+    personality_tags: ['낙관', '정직', '의심']
+    relationship_hooks: ['soft_power', 'forbidden_contract']
+    costume_themes: ['의식복', '베이스', '시즌1']
+  - id: m3_steel_seraph_c08
+    name_ko: "세라프"
+    archetype: silent_sniper
+    role: tank
+    element: kinetic
+    weapon: smg
+    silhouette_ko: "무거운 장비 실루엣(탱커)"
+    personality_tags: ['비관', '정직', '허무']
+    relationship_hooks: ['stoic_protect', 'gentle_monster']
+    costume_themes: ['전술', '의식복', '작업복']
+  - id: m3_steel_seraph_c09
+    name_ko: "제타"
+    archetype: feral_bruiser
+    role: breaker
+    element: thermal
+    weapon: rifle
+    silhouette_ko: "장갑/벨트가 많은 전술 실루엣"
+    personality_tags: ['의심', '허무', '완벽주의']
+    relationship_hooks: ['truth_and_lies', 'teasing']
+    costume_themes: ['시즌2', '드레스', '정장']
+  - id: m3_steel_seraph_c10
+    name_ko: "마그"
+    archetype: elegant_noble
+    role: support
+    element: toxic
+    weapon: staff
+    silhouette_ko: "머리장식/헤드셋 포인트"
+    personality_tags: ['정직', '비관', '냉정']
+    relationship_hooks: ['soft_power', 'high_status_low_morals']
+    costume_themes: ['시즌2', '작업복', '의식복']
+  - id: m3_steel_seraph_c11
+    name_ko: "키리"
+    archetype: hollow_android
+    role: dps
+    element: arc
+    weapon: blade
+    silhouette_ko: "후드 + 마스크 요소"
+    personality_tags: ['낙관', '완벽주의', '무심']
+    relationship_hooks: ['forbidden_contract', 'gentle_monster']
+    costume_themes: ['의식복', '전술', '시즌1']
+  - id: m3_steel_seraph_c12
+    name_ko: "헥스"
+    archetype: double_edge
+    role: control
+    element: cryo
+    weapon: shotgun
+    silhouette_ko: "장갑/벨트가 많은 전술 실루엣"
+    personality_tags: ['비관', '충성', '다정']
+    relationship_hooks: ['gentle_monster', 'forbidden_contract']
+    costume_themes: ['정장', '전술', '시즌1']

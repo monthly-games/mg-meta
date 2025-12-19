@@ -1,0 +1,78 @@
+game_id: m10_glass_garden
+enemies:
+  - id: m10_glass_garden_e_n01
+    tier: normal
+    name_ko: "스카웃 1"
+    family_ko: "유리 생물/정원 수호자/인조 정령"
+    visual_tags: ['glass', 'flora', 'light', '2d_sprite', 'readable_shape']
+    behavior: support
+  - id: m10_glass_garden_e_n02
+    tier: normal
+    name_ko: "스펙터 2"
+    family_ko: "유리 생물/정원 수호자/인조 정령"
+    visual_tags: ['glass', 'flora', 'light', 'sharp_silhouette', '2d_sprite']
+    behavior: ranged
+  - id: m10_glass_garden_e_n03
+    tier: normal
+    name_ko: "리퍼 3"
+    family_ko: "유리 생물/정원 수호자/인조 정령"
+    visual_tags: ['glass', 'flora', 'light', 'sharp_silhouette', 'readable_shape']
+    behavior: flanker
+  - id: m10_glass_garden_e_n04
+    tier: normal
+    name_ko: "워커 4"
+    family_ko: "유리 생물/정원 수호자/인조 정령"
+    visual_tags: ['glass', 'flora', 'light', 'sharp_silhouette', '2d_sprite']
+    behavior: melee
+  - id: m10_glass_garden_e_n05
+    tier: normal
+    name_ko: "워커 5"
+    family_ko: "유리 생물/정원 수호자/인조 정령"
+    visual_tags: ['glass', 'flora', 'light', '2d_sprite', 'sharp_silhouette']
+    behavior: support
+  - id: m10_glass_garden_e_n06
+    tier: normal
+    name_ko: "코어러 6"
+    family_ko: "유리 생물/정원 수호자/인조 정령"
+    visual_tags: ['glass', 'flora', 'light', 'sharp_silhouette', '2d_sprite']
+    behavior: ranged
+  - id: m10_glass_garden_e_n07
+    tier: normal
+    name_ko: "스카웃 7"
+    family_ko: "유리 생물/정원 수호자/인조 정령"
+    visual_tags: ['glass', 'flora', 'light', 'readable_shape', '2d_sprite']
+    behavior: support
+  - id: m10_glass_garden_e_n08
+    tier: normal
+    name_ko: "스펙터 8"
+    family_ko: "유리 생물/정원 수호자/인조 정령"
+    visual_tags: ['glass', 'flora', 'light', 'sharp_silhouette', '2d_sprite']
+    behavior: ranged
+  - id: m10_glass_garden_e_el01
+    tier: elite
+    name_ko: "엘리트 1"
+    family_ko: "유리 생물/정원 수호자/인조 정령"
+    visual_tags: ['glass', 'flora', 'light', 'glow_core', 'unique_weapon']
+    behavior: control
+    mechanic: "보호막"
+  - id: m10_glass_garden_e_el02
+    tier: elite
+    name_ko: "베테랑 2"
+    family_ko: "유리 생물/정원 수호자/인조 정령"
+    visual_tags: ['glass', 'flora', 'light', 'glow_core', 'armor_plate']
+    behavior: shield
+    mechanic: "소환"
+  - id: m10_glass_garden_e_el03
+    tier: elite
+    name_ko: "코어 3"
+    family_ko: "유리 생물/정원 수호자/인조 정령"
+    visual_tags: ['glass', 'flora', 'light', 'glow_core', 'unique_weapon']
+    behavior: summoner
+    mechanic: "광역 경고"
+  - id: m10_glass_garden_e_el04
+    tier: elite
+    name_ko: "베테랑 4"
+    family_ko: "유리 생물/정원 수호자/인조 정령"
+    visual_tags: ['glass', 'flora', 'light', 'armor_plate', 'glow_core']
+    behavior: shield
+    mechanic: "소환"

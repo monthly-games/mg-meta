@@ -1,0 +1,21 @@
+game_id: m9_sky_pirate_syndicate
+title_ko: "스카이 파이럿 신디케이트"
+signature_ko: "항공 장비 + 깃발 그래픽"
+palette_hex:
+  background: "#0B1116"
+  primary: "#53C5FF"
+  accent: "#FFC857"
+  highlight: "#F2F2F2"
+render:
+  line_weight: "medium"
+  shading: "selective_hard"
+  saturation_base: "low"
+  saturation_accent: "high_point"
+materials_focus: ["cloth", "leather", "metal"]
+ui_theme:
+  primary: "#53C5FF"
+  accent: "#FFC857"
+  panel_texture: "sky"
+comfyui:
+  prompt_add_positive: "sky pirate syndicate, 항공 장비 + 깃발 그래픽"
+  prompt_add_negative: "explicit, porn, minor, chibi, exaggerated body focus"

@@ -1,0 +1,97 @@
+lineup_levelA_12months:
+  - month: 1
+    game_id: m1_neon_covert
+    title: NEON COVERT
+    title_ko: 네온 코버트
+    region_ko: 네온 메가시티 ‘아우로라’
+    event_ko: 도시 봉쇄전
+    battle_variant_ko: 엄폐/라인 슈팅
+    tone_tags: ['neon', 'city', 'covert_ops']
+  - month: 2
+    game_id: m2_witch_company
+    title: WITCH COMPANY
+    title_ko: 위치 컴퍼니
+    region_ko: 도시 하층 ‘흑연 지구’
+    event_ko: 의뢰 시즌
+    battle_variant_ko: 버프/디버프 체인
+    tone_tags: ['urban_fantasy', 'contract', 'occult']
+  - month: 3
+    game_id: m3_steel_seraph
+    title: STEEL SERAPH
+    title_ko: 스틸 세라프
+    region_ko: 기계성당 국가 ‘칼케도니아’
+    event_ko: 주간 보스 로테이션
+    battle_variant_ko: 부위파괴/약점노출
+    tone_tags: ['techno_cathedral', 'dogma', 'mecha']
+  - month: 4
+    game_id: m4_sinking_city_noir
+    title: SINKING CITY: NOIR
+    title_ko: 싱킹 시티: 느와르
+    region_ko: 침수도시 ‘델타-9’
+    event_ko: 침수 지역 수색
+    battle_variant_ko: 산소/리스크 자원
+    tone_tags: ['noir', 'flooded', 'trust']
+  - month: 5
+    game_id: m5_blood_opera
+    title: BLOOD OPERA
+    title_ko: 블러드 오페라
+    region_ko: 귀족국 ‘벨레레’
+    event_ko: 무도회 시즌
+    battle_variant_ko: 턴제(행동게이지)
+    tone_tags: ['gothic', 'aristocracy', 'war']
+  - month: 6
+    game_id: m6_desert_mirage
+    title: DESERT MIRAGE
+    title_ko: 데저트 미라주
+    region_ko: 사막 연방 ‘사하라이트’
+    event_ko: 카라반 호위
+    battle_variant_ko: 포메이션 시너지
+    tone_tags: ['desert', 'mercenary', 'mirage']
+  - month: 7
+    game_id: m7_night_shift_hospital
+    title: NIGHT SHIFT HOSPITAL
+    title_ko: 나이트 시프트 호스피탈
+    region_ko: 야간 병동 ‘세인트 에코’
+    event_ko: 사건 기록
+    battle_variant_ko: 상태이상 역전
+    tone_tags: ['mystery', 'medical', 'night']
+  - month: 8
+    game_id: m8_arcane_prison
+    title: ARCANE PRISON
+    title_ko: 아케인 프리즌
+    region_ko: 마도 감옥 ‘바인드홀’
+    event_ko: 감옥 폭동
+    battle_variant_ko: 덱형 스킬 로드아웃
+    tone_tags: ['prison', 'arcane', 'bargain']
+  - month: 9
+    game_id: m9_sky_pirate_syndicate
+    title: SKY PIRATE SYNDICATE
+    title_ko: 스카이 파이럿 신디케이트
+    region_ko: 부유 군도 ‘에어코릴’
+    event_ko: 주간 레이드
+    battle_variant_ko: 협력 레이드 역할
+    tone_tags: ['sky', 'pirate', 'syndicate']
+  - month: 10
+    game_id: m10_glass_garden
+    title: GLASS GARDEN
+    title_ko: 글래스 가든
+    region_ko: 유리 정원 ‘라미나’
+    event_ko: 정원 축제
+    battle_variant_ko: 타이밍 QTE(세미)
+    tone_tags: ['melancholic', 'android', 'garden']
+  - month: 11
+    game_id: m11_underworld_auction
+    title: UNDERWORLD AUCTION
+    title_ko: 언더월드 옥션
+    region_ko: 지하 경매지 ‘블랙 마켓 구역’
+    event_ko: 금지 물품 주간
+    battle_variant_ko: 리스크-리턴 선택
+    tone_tags: ['crime', 'auction', 'secrets']
+  - month: 12
+    game_id: m12_red_moon_protocol
+    title: RED MOON PROTOCOL
+    title_ko: 레드 문 프로토콜
+    region_ko: 붉은 달 전선 ‘헤일로 라인’
+    event_ko: 연말 시즌
+    battle_variant_ko: 궁극기 연계(OD)
+    tone_tags: ['apocalypse', 'defense', 'protocol']

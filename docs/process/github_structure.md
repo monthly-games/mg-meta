@@ -239,8 +239,8 @@ mg-game-000X/
 {
   "game_id": "game_0001",
   "code_name": "MG-0001",
-  "title_kr": "던전 타이쿤 퍼즐RPG",
-  "genre_tags": ["puzzle", "idle", "jrpg"],
+  "title_kr": "심플 타워 디펜스",
+  "genre_tags": ["tower-defense", "strategy"],
   "target_region": ["KR", "SEA"],
   "engine_version": "1.0.0",
   "analytics_profile": "default_v1"
@@ -440,7 +440,7 @@ Year 1 기준, 12개 게임 레포와 장르/역할은 다음과 같다.
 
 | 코드 | 레포명          | 가제(한글)                 | 코어 장르 조합                          |
 |------|-----------------|----------------------------|-----------------------------------------|
-| 1    | mg-game-0001    | 던전 타이쿤 퍼즐RPG        | 퍼즐 + 방치형 + 라이트 JRPG             |
+| 1    | mg-game-0001    | 심플 타워 디펜스            | 타워 디펜스 + 전략                      |
 | 2    | mg-game-0002    | 고양이 연금술 공방         | 퍼즐 제작/합성 + 방치 생산              |
 | 3    | mg-game-0003    | 픽셀 용병단 키우기         | 방치형 + JRPG 전투(자동 전투)          |
 | 4    | mg-game-0004    | 카페 매치 타이쿤           | 매치3 + 경영 시뮬 + 가벼운 방치        |

@@ -1,0 +1,122 @@
+game_id: m6_desert_mirage
+characters:
+  - id: m6_desert_mirage_c01
+    name_ko: "사브"
+    archetype: cynical_ace
+    role: dps
+    element: arc
+    weapon: sniper
+    silhouette_ko: "가늘고 긴 실루엣(우아)"
+    personality_tags: ['허무', '충성', '무심']
+    relationship_hooks: ['stoic_protect', 'soft_power']
+    costume_themes: ['시즌1', '시즌2', '전술']
+  - id: m6_desert_mirage_c02
+    name_ko: "누르"
+    archetype: devoted_guardian
+    role: control
+    element: cryo
+    weapon: smg
+    silhouette_ko: "스카프/망토 포인트"
+    personality_tags: ['허무', '충성', '책임감']
+    relationship_hooks: ['rivals_to_allies', 'soft_power']
+    costume_themes: ['시즌2', '정장', '의식복']
+  - id: m6_desert_mirage_c03
+    name_ko: "리아드"
+    archetype: playful_trickster
+    role: tank
+    element: kinetic
+    weapon: rifle
+    silhouette_ko: "장갑/벨트가 많은 전술 실루엣"
+    personality_tags: ['의심', '정직', '책임감']
+    relationship_hooks: ['gentle_monster', 'high_status_low_morals']
+    costume_themes: ['정장', '베이스', '전술']
+  - id: m6_desert_mirage_c04
+    name_ko: "타지"
+    archetype: authoritative_leader
+    role: breaker
+    element: thermal
+    weapon: staff
+    silhouette_ko: "짧은 재킷 + 부츠"
+    personality_tags: ['도발', '다정', '낙관']
+    relationship_hooks: ['truth_and_lies', 'forbidden_contract']
+    costume_themes: ['시즌1', '베이스', '드레스']
+  - id: m6_desert_mirage_c05
+    name_ko: "미나"
+    archetype: forbidden_researcher
+    role: support
+    element: toxic
+    weapon: blade
+    silhouette_ko: "스카프/망토 포인트"
+    personality_tags: ['충성', '다정', '정직']
+    relationship_hooks: ['high_status_low_morals', 'gentle_monster']
+    costume_themes: ['정장', '시즌2', '의식복']
+  - id: m6_desert_mirage_c06
+    name_ko: "사프"
+    archetype: vengeful_hunter
+    role: dps
+    element: arc
+    weapon: shotgun
+    silhouette_ko: "후드 + 마스크 요소"
+    personality_tags: ['허무', '의심', '완벽주의']
+    relationship_hooks: ['high_status_low_morals', 'rivals_to_allies']
+    costume_themes: ['작업복', '전술', '의식복']
+  - id: m6_desert_mirage_c07
+    name_ko: "하산"
+    archetype: stoic_healer
+    role: control
+    element: cryo
+    weapon: sniper
+    silhouette_ko: "장갑/벨트가 많은 전술 실루엣"
+    personality_tags: ['낙관', '의심', '허무']
+    relationship_hooks: ['stoic_protect', 'gentle_monster']
+    costume_themes: ['작업복', '의식복', '정장']
+  - id: m6_desert_mirage_c08
+    name_ko: "라라"
+    archetype: silent_sniper
+    role: tank
+    element: kinetic
+    weapon: smg
+    silhouette_ko: "무거운 장비 실루엣(탱커)"
+    personality_tags: ['의심', '책임감', '충성']
+    relationship_hooks: ['rivals_to_allies', 'stoic_protect']
+    costume_themes: ['의식복', '시즌1', '베이스']
+  - id: m6_desert_mirage_c09
+    name_ko: "제이드"
+    archetype: feral_bruiser
+    role: breaker
+    element: thermal
+    weapon: rifle
+    silhouette_ko: "후드 + 마스크 요소"
+    personality_tags: ['낙관', '허무', '충성']
+    relationship_hooks: ['high_status_low_morals', 'forbidden_contract']
+    costume_themes: ['드레스', '베이스', '전술']
+  - id: m6_desert_mirage_c10
+    name_ko: "오아시"
+    archetype: elegant_noble
+    role: support
+    element: toxic
+    weapon: staff
+    silhouette_ko: "가늘고 긴 실루엣(우아)"
+    personality_tags: ['충성', '완벽주의', '냉정']
+    relationship_hooks: ['gentle_monster', 'high_status_low_morals']
+    costume_themes: ['드레스', '전술', '베이스']
+  - id: m6_desert_mirage_c11
+    name_ko: "칼리"
+    archetype: hollow_android
+    role: dps
+    element: arc
+    weapon: blade
+    silhouette_ko: "짧은 재킷 + 부츠"
+    personality_tags: ['다정', '책임감', '낙관']
+    relationship_hooks: ['forbidden_contract', 'gentle_monster']
+    costume_themes: ['시즌2', '작업복', '드레스']
+  - id: m6_desert_mirage_c12
+    name_ko: "바람"
+    archetype: double_edge
+    role: control
+    element: cryo
+    weapon: shotgun
+    silhouette_ko: "스카프/망토 포인트"
+    personality_tags: ['책임감', '충성', '완벽주의']
+    relationship_hooks: ['truth_and_lies', 'stoic_protect']
+    costume_themes: ['의식복', '작업복', '정장']

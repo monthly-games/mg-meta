@@ -1,0 +1,122 @@
+game_id: m4_sinking_city_noir
+characters:
+  - id: m4_sinking_city_noir_c01
+    name_ko: "델타"
+    archetype: cynical_ace
+    role: dps
+    element: arc
+    weapon: sniper
+    silhouette_ko: "스카프/망토 포인트"
+    personality_tags: ['비관', '다정', '의심']
+    relationship_hooks: ['teasing', 'rivals_to_allies']
+    costume_themes: ['베이스', '의식복', '드레스']
+  - id: m4_sinking_city_noir_c02
+    name_ko: "마레"
+    archetype: devoted_guardian
+    role: control
+    element: cryo
+    weapon: smg
+    silhouette_ko: "스카프/망토 포인트"
+    personality_tags: ['충성', '냉정', '비관']
+    relationship_hooks: ['forbidden_contract', 'rivals_to_allies']
+    costume_themes: ['시즌1', '작업복', '전술']
+  - id: m4_sinking_city_noir_c03
+    name_ko: "루시"
+    archetype: playful_trickster
+    role: tank
+    element: kinetic
+    weapon: rifle
+    silhouette_ko: "가늘고 긴 실루엣(우아)"
+    personality_tags: ['의심', '도발', '정직']
+    relationship_hooks: ['forbidden_contract', 'rivals_to_allies']
+    costume_themes: ['시즌1', '전술', '드레스']
+  - id: m4_sinking_city_noir_c04
+    name_ko: "코브"
+    archetype: authoritative_leader
+    role: breaker
+    element: thermal
+    weapon: staff
+    silhouette_ko: "무거운 장비 실루엣(탱커)"
+    personality_tags: ['다정', '냉정', '책임감']
+    relationship_hooks: ['soft_power', 'gentle_monster']
+    costume_themes: ['정장', '시즌1', '작업복']
+  - id: m4_sinking_city_noir_c05
+    name_ko: "리프"
+    archetype: forbidden_researcher
+    role: support
+    element: toxic
+    weapon: blade
+    silhouette_ko: "머리장식/헤드셋 포인트"
+    personality_tags: ['비관', '정직', '의심']
+    relationship_hooks: ['soft_power', 'truth_and_lies']
+    costume_themes: ['작업복', '베이스', '시즌2']
+  - id: m4_sinking_city_noir_c06
+    name_ko: "다프네"
+    archetype: vengeful_hunter
+    role: dps
+    element: arc
+    weapon: shotgun
+    silhouette_ko: "짧은 재킷 + 부츠"
+    personality_tags: ['충성', '책임감', '비관']
+    relationship_hooks: ['soft_power', 'rivals_to_allies']
+    costume_themes: ['드레스', '시즌2', '전술']
+  - id: m4_sinking_city_noir_c07
+    name_ko: "스톤"
+    archetype: stoic_healer
+    role: control
+    element: cryo
+    weapon: sniper
+    silhouette_ko: "후드 + 마스크 요소"
+    personality_tags: ['낙관', '정직', '도발']
+    relationship_hooks: ['stoic_protect', 'high_status_low_morals']
+    costume_themes: ['시즌2', '전술', '베이스']
+  - id: m4_sinking_city_noir_c08
+    name_ko: "리오"
+    archetype: silent_sniper
+    role: tank
+    element: kinetic
+    weapon: smg
+    silhouette_ko: "후드 + 마스크 요소"
+    personality_tags: ['도발', '충성', '무심']
+    relationship_hooks: ['stoic_protect', 'rivals_to_allies']
+    costume_themes: ['베이스', '시즌1', '드레스']
+  - id: m4_sinking_city_noir_c09
+    name_ko: "미라"
+    archetype: feral_bruiser
+    role: breaker
+    element: thermal
+    weapon: rifle
+    silhouette_ko: "스카프/망토 포인트"
+    personality_tags: ['낙관', '무심', '의심']
+    relationship_hooks: ['gentle_monster', 'rivals_to_allies']
+    costume_themes: ['의식복', '작업복', '시즌1']
+  - id: m4_sinking_city_noir_c10
+    name_ko: "제인"
+    archetype: elegant_noble
+    role: support
+    element: toxic
+    weapon: staff
+    silhouette_ko: "머리장식/헤드셋 포인트"
+    personality_tags: ['책임감', '도발', '냉정']
+    relationship_hooks: ['stoic_protect', 'gentle_monster']
+    costume_themes: ['의식복', '정장', '베이스']
+  - id: m4_sinking_city_noir_c11
+    name_ko: "하버"
+    archetype: hollow_android
+    role: dps
+    element: arc
+    weapon: blade
+    silhouette_ko: "짧은 재킷 + 부츠"
+    personality_tags: ['낙관', '의심', '정직']
+    relationship_hooks: ['soft_power', 'gentle_monster']
+    costume_themes: ['전술', '시즌2', '의식복']
+  - id: m4_sinking_city_noir_c12
+    name_ko: "노크"
+    archetype: double_edge
+    role: control
+    element: cryo
+    weapon: shotgun
+    silhouette_ko: "머리장식/헤드셋 포인트"
+    personality_tags: ['다정', '정직', '낙관']
+    relationship_hooks: ['gentle_monster', 'truth_and_lies']
+    costume_themes: ['베이스', '시즌1', '시즌2']

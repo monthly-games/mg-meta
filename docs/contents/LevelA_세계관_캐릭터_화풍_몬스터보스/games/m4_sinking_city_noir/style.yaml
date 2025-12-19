@@ -1,0 +1,21 @@
+game_id: m4_sinking_city_noir
+title_ko: "싱킹 시티: 느와르"
+signature_ko: "필름 그레인 + 젖은 재질감"
+palette_hex:
+  background: "#0A0E12"
+  primary: "#6AA6B8"
+  accent: "#D9B18A"
+  highlight: "#E6E6E6"
+render:
+  line_weight: "medium"
+  shading: "selective_hard"
+  saturation_base: "low"
+  saturation_accent: "high_point"
+materials_focus: ["cloth", "leather", "metal"]
+ui_theme:
+  primary: "#6AA6B8"
+  accent: "#D9B18A"
+  panel_texture: "noir"
+comfyui:
+  prompt_add_positive: "noir flooded trust, 필름 그레인 + 젖은 재질감"
+  prompt_add_negative: "explicit, porn, minor, chibi, exaggerated body focus"

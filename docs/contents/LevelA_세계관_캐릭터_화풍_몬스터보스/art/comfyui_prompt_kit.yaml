@@ -1,0 +1,15 @@
+prompt_kit:
+  base_positive: >
+    2d game character, semi-real mature proportion, clean lineart, selective hard shading,
+    detailed outfit materials (cloth, leather, metal), cohesive design, readable silhouette,
+    high-quality illustration, consistent face style, game key visual style
+  base_negative: >
+    child, minor, loli, chibi, explicit nudity, porn, explicit sexual act,
+    exaggerated body focus, low quality, blurry, extra limbs, bad anatomy
+  control_hints:
+    - "use pose reference (openpose) for action shots"
+    - "use palette lock per title for cohesion"
+  outputs:
+    character_views: ["front", "3_4", "side"]
+    expressions: ["neutral", "smirk", "serious", "surprised", "tired"]
+    costume_variants: ["base", "seasonal_1", "seasonal_2"]

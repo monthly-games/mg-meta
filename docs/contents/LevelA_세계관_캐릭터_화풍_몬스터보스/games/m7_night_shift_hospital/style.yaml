@@ -1,0 +1,21 @@
+game_id: m7_night_shift_hospital
+title_ko: "나이트 시프트 호스피탈"
+signature_ko: "차가운 병원광 + 붉은 경고색"
+palette_hex:
+  background: "#0A0D12"
+  primary: "#7DB0FF"
+  accent: "#E3E3E3"
+  highlight: "#FF6B6B"
+render:
+  line_weight: "medium"
+  shading: "selective_hard"
+  saturation_base: "low"
+  saturation_accent: "high_point"
+materials_focus: ["cloth", "leather", "metal"]
+ui_theme:
+  primary: "#7DB0FF"
+  accent: "#E3E3E3"
+  panel_texture: "mystery"
+comfyui:
+  prompt_add_positive: "mystery medical night, 차가운 병원광 + 붉은 경고색"
+  prompt_add_negative: "explicit, porn, minor, chibi, exaggerated body focus"

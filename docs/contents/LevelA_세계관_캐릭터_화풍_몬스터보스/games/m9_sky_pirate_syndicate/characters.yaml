@@ -1,0 +1,122 @@
+game_id: m9_sky_pirate_syndicate
+characters:
+  - id: m9_sky_pirate_syndicate_c01
+    name_ko: "스카"
+    archetype: cynical_ace
+    role: dps
+    element: arc
+    weapon: sniper
+    silhouette_ko: "스카프/망토 포인트"
+    personality_tags: ['의심', '충성', '정직']
+    relationship_hooks: ['high_status_low_morals', 'forbidden_contract']
+    costume_themes: ['시즌1', '베이스', '드레스']
+  - id: m9_sky_pirate_syndicate_c02
+    name_ko: "리그"
+    archetype: devoted_guardian
+    role: control
+    element: cryo
+    weapon: smg
+    silhouette_ko: "머리장식/헤드셋 포인트"
+    personality_tags: ['비관', '냉정', '완벽주의']
+    relationship_hooks: ['stoic_protect', 'soft_power']
+    costume_themes: ['전술', '정장', '시즌1']
+  - id: m9_sky_pirate_syndicate_c03
+    name_ko: "코릴"
+    archetype: playful_trickster
+    role: tank
+    element: kinetic
+    weapon: rifle
+    silhouette_ko: "머리장식/헤드셋 포인트"
+    personality_tags: ['낙관', '허무', '냉정']
+    relationship_hooks: ['gentle_monster', 'teasing']
+    costume_themes: ['시즌1', '전술', '정장']
+  - id: m9_sky_pirate_syndicate_c04
+    name_ko: "마스트"
+    archetype: authoritative_leader
+    role: breaker
+    element: thermal
+    weapon: staff
+    silhouette_ko: "짧은 재킷 + 부츠"
+    personality_tags: ['충성', '허무', '도발']
+    relationship_hooks: ['teasing', 'truth_and_lies']
+    costume_themes: ['전술', '작업복', '드레스']
+  - id: m9_sky_pirate_syndicate_c05
+    name_ko: "윈"
+    archetype: forbidden_researcher
+    role: support
+    element: toxic
+    weapon: blade
+    silhouette_ko: "긴 머리 + 단단한 어깨 라인"
+    personality_tags: ['완벽주의', '충성', '비관']
+    relationship_hooks: ['stoic_protect', 'teasing']
+    costume_themes: ['베이스', '시즌2', '전술']
+  - id: m9_sky_pirate_syndicate_c06
+    name_ko: "제트"
+    archetype: vengeful_hunter
+    role: dps
+    element: arc
+    weapon: shotgun
+    silhouette_ko: "무거운 장비 실루엣(탱커)"
+    personality_tags: ['도발', '완벽주의', '비관']
+    relationship_hooks: ['stoic_protect', 'high_status_low_morals']
+    costume_themes: ['드레스', '의식복', '시즌1']
+  - id: m9_sky_pirate_syndicate_c07
+    name_ko: "아일"
+    archetype: stoic_healer
+    role: control
+    element: cryo
+    weapon: sniper
+    silhouette_ko: "긴 머리 + 단단한 어깨 라인"
+    personality_tags: ['비관', '다정', '허무']
+    relationship_hooks: ['gentle_monster', 'soft_power']
+    costume_themes: ['베이스', '의식복', '정장']
+  - id: m9_sky_pirate_syndicate_c08
+    name_ko: "브룸"
+    archetype: silent_sniper
+    role: tank
+    element: kinetic
+    weapon: smg
+    silhouette_ko: "비대칭 코트 + 하이칼라"
+    personality_tags: ['다정', '낙관', '완벽주의']
+    relationship_hooks: ['stoic_protect', 'truth_and_lies']
+    costume_themes: ['의식복', '베이스', '드레스']
+  - id: m9_sky_pirate_syndicate_c09
+    name_ko: "호크"
+    archetype: feral_bruiser
+    role: breaker
+    element: thermal
+    weapon: rifle
+    silhouette_ko: "긴 머리 + 단단한 어깨 라인"
+    personality_tags: ['비관', '낙관', '허무']
+    relationship_hooks: ['truth_and_lies', 'forbidden_contract']
+    costume_themes: ['전술', '정장', '베이스']
+  - id: m9_sky_pirate_syndicate_c10
+    name_ko: "플래그"
+    archetype: elegant_noble
+    role: support
+    element: toxic
+    weapon: staff
+    silhouette_ko: "짧은 재킷 + 부츠"
+    personality_tags: ['허무', '책임감', '무심']
+    relationship_hooks: ['soft_power', 'gentle_monster']
+    costume_themes: ['시즌1', '드레스', '정장']
+  - id: m9_sky_pirate_syndicate_c11
+    name_ko: "미스트"
+    archetype: hollow_android
+    role: dps
+    element: arc
+    weapon: blade
+    silhouette_ko: "머리장식/헤드셋 포인트"
+    personality_tags: ['냉정', '정직', '낙관']
+    relationship_hooks: ['gentle_monster', 'stoic_protect']
+    costume_themes: ['의식복', '전술', '작업복']
+  - id: m9_sky_pirate_syndicate_c12
+    name_ko: "루프"
+    archetype: double_edge
+    role: control
+    element: cryo
+    weapon: shotgun
+    silhouette_ko: "가늘고 긴 실루엣(우아)"
+    personality_tags: ['비관', '정직', '무심']
+    relationship_hooks: ['stoic_protect', 'high_status_low_morals']
+    costume_themes: ['시즌2', '베이스', '전술']

@@ -1,0 +1,21 @@
+game_id: m2_witch_company
+title_ko: "위치 컴퍼니"
+signature_ko: "오컬트 문양 + 정장 미학"
+palette_hex:
+  background: "#0B0B10"
+  primary: "#B47CFF"
+  accent: "#2AE6A3"
+  highlight: "#F2D9FF"
+render:
+  line_weight: "medium"
+  shading: "selective_hard"
+  saturation_base: "low"
+  saturation_accent: "high_point"
+materials_focus: ["cloth", "leather", "metal"]
+ui_theme:
+  primary: "#B47CFF"
+  accent: "#2AE6A3"
+  panel_texture: "urban_fantasy"
+comfyui:
+  prompt_add_positive: "urban_fantasy contract occult, 오컬트 문양 + 정장 미학"
+  prompt_add_negative: "explicit, porn, minor, chibi, exaggerated body focus"

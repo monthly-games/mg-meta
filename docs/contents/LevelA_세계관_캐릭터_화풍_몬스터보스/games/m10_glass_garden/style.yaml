@@ -1,0 +1,21 @@
+game_id: m10_glass_garden
+title_ko: "글래스 가든"
+signature_ko: "투명 재질 + 섬세한 하이라이트"
+palette_hex:
+  background: "#0C0F14"
+  primary: "#A5F3FF"
+  accent: "#B8B8FF"
+  highlight: "#F2F2F2"
+render:
+  line_weight: "medium"
+  shading: "selective_hard"
+  saturation_base: "low"
+  saturation_accent: "high_point"
+materials_focus: ["cloth", "leather", "metal"]
+ui_theme:
+  primary: "#A5F3FF"
+  accent: "#B8B8FF"
+  panel_texture: "melancholic"
+comfyui:
+  prompt_add_positive: "melancholic android garden, 투명 재질 + 섬세한 하이라이트"
+  prompt_add_negative: "explicit, porn, minor, chibi, exaggerated body focus"

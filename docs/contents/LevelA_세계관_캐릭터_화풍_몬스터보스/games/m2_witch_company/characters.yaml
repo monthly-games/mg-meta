@@ -1,0 +1,122 @@
+game_id: m2_witch_company
+characters:
+  - id: m2_witch_company_c01
+    name_ko: "모르"
+    archetype: cynical_ace
+    role: dps
+    element: arc
+    weapon: sniper
+    silhouette_ko: "스카프/망토 포인트"
+    personality_tags: ['낙관', '비관', '다정']
+    relationship_hooks: ['high_status_low_morals', 'gentle_monster']
+    costume_themes: ['정장', '전술', '드레스']
+  - id: m2_witch_company_c02
+    name_ko: "세라"
+    archetype: devoted_guardian
+    role: control
+    element: cryo
+    weapon: smg
+    silhouette_ko: "짧은 재킷 + 부츠"
+    personality_tags: ['완벽주의', '다정', '낙관']
+    relationship_hooks: ['rivals_to_allies', 'gentle_monster']
+    costume_themes: ['전술', '의식복', '정장']
+  - id: m2_witch_company_c03
+    name_ko: "엘릭"
+    archetype: playful_trickster
+    role: tank
+    element: kinetic
+    weapon: rifle
+    silhouette_ko: "장갑/벨트가 많은 전술 실루엣"
+    personality_tags: ['충성', '의심', '다정']
+    relationship_hooks: ['gentle_monster', 'high_status_low_morals']
+    costume_themes: ['전술', '정장', '드레스']
+  - id: m2_witch_company_c04
+    name_ko: "바네사"
+    archetype: authoritative_leader
+    role: breaker
+    element: thermal
+    weapon: staff
+    silhouette_ko: "가늘고 긴 실루엣(우아)"
+    personality_tags: ['완벽주의', '냉정', '다정']
+    relationship_hooks: ['high_status_low_morals', 'teasing']
+    costume_themes: ['정장', '드레스', '베이스']
+  - id: m2_witch_company_c05
+    name_ko: "루시드"
+    archetype: forbidden_researcher
+    role: support
+    element: toxic
+    weapon: blade
+    silhouette_ko: "짧은 재킷 + 부츠"
+    personality_tags: ['허무', '정직', '완벽주의']
+    relationship_hooks: ['gentle_monster', 'forbidden_contract']
+    costume_themes: ['의식복', '시즌1', '베이스']
+  - id: m2_witch_company_c06
+    name_ko: "하젤"
+    archetype: vengeful_hunter
+    role: dps
+    element: arc
+    weapon: shotgun
+    silhouette_ko: "무거운 장비 실루엣(탱커)"
+    personality_tags: ['충성', '의심', '비관']
+    relationship_hooks: ['gentle_monster', 'soft_power']
+    costume_themes: ['작업복', '의식복', '전술']
+  - id: m2_witch_company_c07
+    name_ko: "티아"
+    archetype: stoic_healer
+    role: control
+    element: cryo
+    weapon: sniper
+    silhouette_ko: "스카프/망토 포인트"
+    personality_tags: ['낙관', '충성', '의심']
+    relationship_hooks: ['forbidden_contract', 'stoic_protect']
+    costume_themes: ['드레스', '의식복', '시즌2']
+  - id: m2_witch_company_c08
+    name_ko: "로웬"
+    archetype: silent_sniper
+    role: tank
+    element: kinetic
+    weapon: smg
+    silhouette_ko: "장갑/벨트가 많은 전술 실루엣"
+    personality_tags: ['다정', '완벽주의', '냉정']
+    relationship_hooks: ['truth_and_lies', 'soft_power']
+    costume_themes: ['시즌2', '베이스', '작업복']
+  - id: m2_witch_company_c09
+    name_ko: "칼라"
+    archetype: feral_bruiser
+    role: breaker
+    element: thermal
+    weapon: rifle
+    silhouette_ko: "긴 머리 + 단단한 어깨 라인"
+    personality_tags: ['다정', '무심', '허무']
+    relationship_hooks: ['soft_power', 'high_status_low_morals']
+    costume_themes: ['정장', '의식복', '전술']
+  - id: m2_witch_company_c10
+    name_ko: "에이드"
+    archetype: elegant_noble
+    role: support
+    element: toxic
+    weapon: staff
+    silhouette_ko: "무거운 장비 실루엣(탱커)"
+    personality_tags: ['의심', '책임감', '다정']
+    relationship_hooks: ['high_status_low_morals', 'gentle_monster']
+    costume_themes: ['베이스', '드레스', '작업복']
+  - id: m2_witch_company_c11
+    name_ko: "나이아"
+    archetype: hollow_android
+    role: dps
+    element: arc
+    weapon: blade
+    silhouette_ko: "스카프/망토 포인트"
+    personality_tags: ['허무', '책임감', '의심']
+    relationship_hooks: ['soft_power', 'forbidden_contract']
+    costume_themes: ['시즌2', '베이스', '시즌1']
+  - id: m2_witch_company_c12
+    name_ko: "실프"
+    archetype: double_edge
+    role: control
+    element: cryo
+    weapon: shotgun
+    silhouette_ko: "비대칭 코트 + 하이칼라"
+    personality_tags: ['도발', '무심', '냉정']
+    relationship_hooks: ['forbidden_contract', 'high_status_low_morals']
+    costume_themes: ['작업복', '정장', '전술']

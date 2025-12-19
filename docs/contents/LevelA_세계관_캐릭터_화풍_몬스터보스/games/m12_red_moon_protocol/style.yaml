@@ -1,0 +1,21 @@
+game_id: m12_red_moon_protocol
+title_ko: "레드 문 프로토콜"
+signature_ko: "경보등 대비 + 전시 프로토콜 UI"
+palette_hex:
+  background: "#0B0A0E"
+  primary: "#FF3B3B"
+  accent: "#8A7CFF"
+  highlight: "#F2F2F2"
+render:
+  line_weight: "medium"
+  shading: "selective_hard"
+  saturation_base: "low"
+  saturation_accent: "high_point"
+materials_focus: ["cloth", "leather", "metal"]
+ui_theme:
+  primary: "#FF3B3B"
+  accent: "#8A7CFF"
+  panel_texture: "apocalypse"
+comfyui:
+  prompt_add_positive: "apocalypse defense protocol, 경보등 대비 + 전시 프로토콜 UI"
+  prompt_add_negative: "explicit, porn, minor, chibi, exaggerated body focus"

@@ -1,0 +1,21 @@
+game_id: m5_blood_opera
+title_ko: "블러드 오페라"
+signature_ko: "고딕 장식 + 무대 조명"
+palette_hex:
+  background: "#12070B"
+  primary: "#B80F2E"
+  accent: "#D4C1A0"
+  highlight: "#F2F2F2"
+render:
+  line_weight: "medium"
+  shading: "selective_hard"
+  saturation_base: "low"
+  saturation_accent: "high_point"
+materials_focus: ["cloth", "leather", "metal"]
+ui_theme:
+  primary: "#B80F2E"
+  accent: "#D4C1A0"
+  panel_texture: "gothic"
+comfyui:
+  prompt_add_positive: "gothic aristocracy war, 고딕 장식 + 무대 조명"
+  prompt_add_negative: "explicit, porn, minor, chibi, exaggerated body focus"

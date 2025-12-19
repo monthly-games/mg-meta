@@ -1,0 +1,21 @@
+game_id: m3_steel_seraph
+title_ko: "스틸 세라프"
+signature_ko: "금속 광택 절제 + 성당 스테인드"
+palette_hex:
+  background: "#0C1014"
+  primary: "#C7D1DA"
+  accent: "#FFCC33"
+  highlight: "#8AF0FF"
+render:
+  line_weight: "medium"
+  shading: "selective_hard"
+  saturation_base: "low"
+  saturation_accent: "high_point"
+materials_focus: ["cloth", "leather", "metal"]
+ui_theme:
+  primary: "#C7D1DA"
+  accent: "#FFCC33"
+  panel_texture: "techno_cathedral"
+comfyui:
+  prompt_add_positive: "techno_cathedral dogma mecha, 금속 광택 절제 + 성당 스테인드"
+  prompt_add_negative: "explicit, porn, minor, chibi, exaggerated body focus"

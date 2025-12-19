@@ -1,0 +1,25 @@
+style_tokens:
+  character_render:
+    body_ratio: "semi_real_mature"
+    line: "clean_line + selective_hard_shading"
+    base_saturation: "low"
+    accent_saturation: "high_point"
+    materials: ["cloth", "leather", "metal", "skin"]
+    forbid: ["plastic_gloss", "chibi_minor"]
+  camera:
+    forbid: ["explicit_body_focus", "excessive_zoom_sensitive"]
+    allow: ["upper_body_action", "dynamic_diagonal", "silhouette_showcase"]
+  ui:
+    framework: "Flutter"
+    base_components: "shared_ui_kit"
+    theme_override: ["primary_color", "accent_color", "panel_texture"]
+quality_gates:
+  - id: silhouette_distinct
+    metric: "embedding_distance_min"
+    threshold: 0.18
+  - id: face_consistency
+    metric: "landmark_delta_max"
+    threshold: 0.12
+  - id: material_separation
+    metric: "material_class_confidence_min"
+    threshold: 0.75

@@ -25,14 +25,14 @@
 
 ---
 
-## game_0001 – 던전 타이쿤 퍼즐RPG
+## game_0001 – 심플 타워 디펜스
 
 - `game_id` : game_0001  
 - `repo` : mg-game-0001  
-- `title_kr` : 던전 타이쿤 퍼즐RPG  
-- `genre_tags` : ["puzzle", "idle", "jrpg"]  
+- `title_kr` : 심플 타워 디펜스  
+- `genre_tags` : ["tower-defense", "strategy"]  
 - `portfolio_role` :  
-  - 퍼즐+방치+JRPG 공통 루프 검증용 레퍼런스 타이틀  
+  - 타워 디펜스+전략 core loop 검증용 레퍼런스 타이틀  
   - 공통 엔진 v1의 대표 샘플
 
 ### core_loop

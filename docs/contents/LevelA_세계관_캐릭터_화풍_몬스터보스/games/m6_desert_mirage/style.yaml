@@ -1,0 +1,21 @@
+game_id: m6_desert_mirage
+title_ko: "데저트 미라주"
+signature_ko: "사막 먼지 + 금속 장비 대비"
+palette_hex:
+  background: "#1A140C"
+  primary: "#F2C879"
+  accent: "#3BB7A6"
+  highlight: "#F2F2F2"
+render:
+  line_weight: "medium"
+  shading: "selective_hard"
+  saturation_base: "low"
+  saturation_accent: "high_point"
+materials_focus: ["cloth", "leather", "metal"]
+ui_theme:
+  primary: "#F2C879"
+  accent: "#3BB7A6"
+  panel_texture: "desert"
+comfyui:
+  prompt_add_positive: "desert mercenary mirage, 사막 먼지 + 금속 장비 대비"
+  prompt_add_negative: "explicit, porn, minor, chibi, exaggerated body focus"

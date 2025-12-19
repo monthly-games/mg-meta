@@ -1,0 +1,12 @@
+game_id: m2_witch_company
+bosses:
+  - id: m2_witch_company_boss_mid
+    name_ko: "중간보스: 주술사"
+    phases: 2
+    signature_mechanics: ['브레이크 게이지', '패턴 경고-회피']
+    drops: ['장비 재료', '승급 파편', '코스튬 토큰(낮은 확률)']
+  - id: m2_witch_company_boss_final
+    name_ko: "최종보스: 샤드 군주"
+    phases: 3
+    signature_mechanics: ['타겟 고정 레이저', '약점 순환', '역상(디버프 반전)']
+    drops: ['전설 장비 재료', '전용 칭호', '시즌 이벤트 키']

@@ -1,0 +1,25 @@
+game_id: m11_underworld_auction
+title: "UNDERWORLD AUCTION"
+title_ko: "언더월드 옥션"
+logline_ko: "지하 경매지 ‘블랙 마켓 구역’에서 ‘샤드(Shard)’를 둘러싼 금지 물품 주간이 벌어진다. 플레이어는 조직 간 계약을 조율하며 위기의 핵심을 추적한다."
+region_ko: "지하 경매지 ‘블랙 마켓 구역’"
+tone_tags: ['crime', 'auction', 'secrets']
+factions:
+  - id: faction_a
+    name_ko: "옥션 하우스"
+    role_ko: "권력/규율"
+  - id: faction_b
+    name_ko: "블랙 마켓 경호"
+    role_ko: "현장/실무"
+  - id: faction_c
+    name_ko: "샤드 브로커"
+    role_ko: "암시장/반대파"
+conflict:
+  what: "샤드 유통/통제권을 둘러싼 충돌"
+  why: "샤드는 지역의 생존과 권력의 근원이며, 균열(샤드라인)이 확대되고 있다."
+  stakes_ko: "통제가 무너지면 지역은 붕괴하거나, 특정 조직의 독점으로 시민/현장은 희생된다."
+event:
+  name_ko: "금지 물품 주간"
+  loop_ko: "7일 주간 이벤트 템플릿(룰 재사용) + 테마 연출/보상 교체"
+battle_variant_ko: "리스크-리턴 선택"
+crossover_hook: "이 지역의 샤드 공급망은 다른 작품의 ‘샤드라인’ 사건과 연결된다(크로스오버 미션 가능)."

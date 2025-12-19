@@ -1,0 +1,122 @@
+game_id: m12_red_moon_protocol
+characters:
+  - id: m12_red_moon_protocol_c01
+    name_ko: "루나"
+    archetype: cynical_ace
+    role: dps
+    element: arc
+    weapon: sniper
+    silhouette_ko: "머리장식/헤드셋 포인트"
+    personality_tags: ['무심', '다정', '책임감']
+    relationship_hooks: ['high_status_low_morals', 'gentle_monster']
+    costume_themes: ['시즌1', '드레스', '시즌2']
+  - id: m12_red_moon_protocol_c02
+    name_ko: "레드"
+    archetype: devoted_guardian
+    role: control
+    element: cryo
+    weapon: smg
+    silhouette_ko: "비대칭 코트 + 하이칼라"
+    personality_tags: ['충성', '도발', '정직']
+    relationship_hooks: ['forbidden_contract', 'soft_power']
+    costume_themes: ['정장', '드레스', '시즌1']
+  - id: m12_red_moon_protocol_c03
+    name_ko: "프로토"
+    archetype: playful_trickster
+    role: tank
+    element: kinetic
+    weapon: rifle
+    silhouette_ko: "짧은 재킷 + 부츠"
+    personality_tags: ['완벽주의', '비관', '냉정']
+    relationship_hooks: ['soft_power', 'gentle_monster']
+    costume_themes: ['베이스', '전술', '시즌1']
+  - id: m12_red_moon_protocol_c04
+    name_ko: "헤일"
+    archetype: authoritative_leader
+    role: breaker
+    element: thermal
+    weapon: staff
+    silhouette_ko: "가늘고 긴 실루엣(우아)"
+    personality_tags: ['무심', '완벽주의', '책임감']
+    relationship_hooks: ['stoic_protect', 'high_status_low_morals']
+    costume_themes: ['베이스', '드레스', '시즌2']
+  - id: m12_red_moon_protocol_c05
+    name_ko: "아라"
+    archetype: forbidden_researcher
+    role: support
+    element: toxic
+    weapon: blade
+    silhouette_ko: "스카프/망토 포인트"
+    personality_tags: ['낙관', '충성', '다정']
+    relationship_hooks: ['soft_power', 'forbidden_contract']
+    costume_themes: ['작업복', '시즌1', '드레스']
+  - id: m12_red_moon_protocol_c06
+    name_ko: "코어"
+    archetype: vengeful_hunter
+    role: dps
+    element: arc
+    weapon: shotgun
+    silhouette_ko: "장갑/벨트가 많은 전술 실루엣"
+    personality_tags: ['충성', '의심', '다정']
+    relationship_hooks: ['gentle_monster', 'high_status_low_morals']
+    costume_themes: ['정장', '시즌2', '베이스']
+  - id: m12_red_moon_protocol_c07
+    name_ko: "실드"
+    archetype: stoic_healer
+    role: control
+    element: cryo
+    weapon: sniper
+    silhouette_ko: "비대칭 코트 + 하이칼라"
+    personality_tags: ['비관', '완벽주의', '정직']
+    relationship_hooks: ['forbidden_contract', 'teasing']
+    costume_themes: ['전술', '베이스', '의식복']
+  - id: m12_red_moon_protocol_c08
+    name_ko: "노바"
+    archetype: silent_sniper
+    role: tank
+    element: kinetic
+    weapon: smg
+    silhouette_ko: "장갑/벨트가 많은 전술 실루엣"
+    personality_tags: ['완벽주의', '책임감', '허무']
+    relationship_hooks: ['gentle_monster', 'high_status_low_morals']
+    costume_themes: ['작업복', '시즌2', '베이스']
+  - id: m12_red_moon_protocol_c09
+    name_ko: "브레이크"
+    archetype: feral_bruiser
+    role: breaker
+    element: thermal
+    weapon: rifle
+    silhouette_ko: "머리장식/헤드셋 포인트"
+    personality_tags: ['비관', '도발', '냉정']
+    relationship_hooks: ['truth_and_lies', 'forbidden_contract']
+    costume_themes: ['시즌2', '시즌1', '작업복']
+  - id: m12_red_moon_protocol_c10
+    name_ko: "시그마"
+    archetype: elegant_noble
+    role: support
+    element: toxic
+    weapon: staff
+    silhouette_ko: "비대칭 코트 + 하이칼라"
+    personality_tags: ['도발', '무심', '충성']
+    relationship_hooks: ['soft_power', 'teasing']
+    costume_themes: ['전술', '시즌2', '베이스']
+  - id: m12_red_moon_protocol_c11
+    name_ko: "알파"
+    archetype: hollow_android
+    role: dps
+    element: arc
+    weapon: blade
+    silhouette_ko: "짧은 재킷 + 부츠"
+    personality_tags: ['의심', '허무', '완벽주의']
+    relationship_hooks: ['teasing', 'soft_power']
+    costume_themes: ['시즌1', '베이스', '작업복']
+  - id: m12_red_moon_protocol_c12
+    name_ko: "오메가"
+    archetype: double_edge
+    role: control
+    element: cryo
+    weapon: shotgun
+    silhouette_ko: "긴 머리 + 단단한 어깨 라인"
+    personality_tags: ['냉정', '다정', '낙관']
+    relationship_hooks: ['gentle_monster', 'high_status_low_morals']
+    costume_themes: ['시즌1', '의식복', '작업복']

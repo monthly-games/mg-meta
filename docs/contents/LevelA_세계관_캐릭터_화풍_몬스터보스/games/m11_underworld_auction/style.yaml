@@ -1,0 +1,21 @@
+game_id: m11_underworld_auction
+title_ko: "언더월드 옥션"
+signature_ko: "고급 정장 + 금속 디테일"
+palette_hex:
+  background: "#0A0A0B"
+  primary: "#C7B27E"
+  accent: "#7BFFB6"
+  highlight: "#E6E6E6"
+render:
+  line_weight: "medium"
+  shading: "selective_hard"
+  saturation_base: "low"
+  saturation_accent: "high_point"
+materials_focus: ["cloth", "leather", "metal"]
+ui_theme:
+  primary: "#C7B27E"
+  accent: "#7BFFB6"
+  panel_texture: "crime"
+comfyui:
+  prompt_add_positive: "crime auction secrets, 고급 정장 + 금속 디테일"
+  prompt_add_negative: "explicit, porn, minor, chibi, exaggerated body focus"

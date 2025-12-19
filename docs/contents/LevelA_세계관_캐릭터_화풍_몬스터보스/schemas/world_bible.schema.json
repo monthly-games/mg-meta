@@ -1,0 +1,61 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "WorldBible",
+  "type": "object",
+  "required": [
+    "game_id",
+    "logline_ko",
+    "region_ko",
+    "factions",
+    "conflict",
+    "event",
+    "tone_tags",
+    "crossover_hook"
+  ],
+  "properties": {
+    "game_id": {
+      "type": "string"
+    },
+    "logline_ko": {
+      "type": "string"
+    },
+    "region_ko": {
+      "type": "string"
+    },
+    "factions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "name_ko",
+          "role_ko"
+        ]
+      }
+    },
+    "conflict": {
+      "type": "object",
+      "required": [
+        "what",
+        "why",
+        "stakes_ko"
+      ]
+    },
+    "event": {
+      "type": "object",
+      "required": [
+        "name_ko",
+        "loop_ko"
+      ]
+    },
+    "tone_tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "crossover_hook": {
+      "type": "string"
+    }
+  }
+}

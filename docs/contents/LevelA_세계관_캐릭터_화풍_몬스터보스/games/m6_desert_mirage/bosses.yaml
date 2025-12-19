@@ -1,0 +1,12 @@
+game_id: m6_desert_mirage
+bosses:
+  - id: m6_desert_mirage_boss_mid
+    name_ko: "중간보스: 감시자"
+    phases: 2
+    signature_mechanics: ['소환물 처리', '브레이크 게이지']
+    drops: ['장비 재료', '승급 파편', '코스튬 토큰(낮은 확률)']
+  - id: m6_desert_mirage_boss_final
+    name_ko: "최종보스: 샤드 군주"
+    phases: 3
+    signature_mechanics: ['패턴 학습형', '시간 제한 DPS 체크', '역상(디버프 반전)']
+    drops: ['전설 장비 재료', '전용 칭호', '시즌 이벤트 키']

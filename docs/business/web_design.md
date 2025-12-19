@@ -216,8 +216,8 @@ mg-web-landing/
 ```json
 {
   "game_id": "game_0001",
-  "title_kr": "던전 타이쿤 퍼즐RPG",
-  "short_tagline": "퍼즐과 방치, JRPG 전투를 한 번에 즐기는 모바일 게임.",
+  "title_kr": "심플 타워 디펜스",
+  "short_tagline": "타워 배치와 전략으로 웨이브를 막는 모바일 디펜스 게임.",
   "stores": [
     {
       "platform": "google_play",
@@ -322,8 +322,8 @@ mg-web-landing/
   "type": "launch",
   "locale": "ko-KR",
   "hero": {
-    "headline": "퍼즐 끝나면, 던전이 열린다.",
-    "subheadline": "던전 타이쿤 퍼즐RPG, 지금 바로 설치하고 보상을 받아보세요.",
+    "headline": "배치가 곧 승리다.",
+    "subheadline": "심플 타워 디펜스, 지금 바로 설치하고 보상을 받아보세요.",
     "primary_cta": {
       "label": "지금 무료로 플레이",
       "target": "store",
@@ -332,9 +332,9 @@ mg-web-landing/
     "background_image": "/landing/game_0001/bg_hero.jpg"
   },
   "selling_points": [
-    "손가락 하나로 즐기는 퍼즐+방치+전투",
-    "접속하지 않아도 쌓이는 보상",
-    "귀여운 픽셀 캐릭터와 시원한 이펙트"
+    "간단한 조작, 깊이 있는 타워 배치 전략",
+    "웨이브 방어와 보상 루프",
+    "다양한 타워/적 조합으로 전술 확장"
   ],
   "video": {
     "youtube_id": "XXXXXXXX",
@@ -513,9 +513,9 @@ Disallow: /_next/
 {
   "@context": "https://schema.org",
   "@type": "VideoGame",
-  "name": "던전 타이쿤 퍼즐RPG",
-  "description": "퍼즐과 방치, JRPG 전투를 한 번에 즐기는 모바일 게임.",
-  "genre": ["Puzzle", "Idle", "RPG"],
+  "name": "심플 타워 디펜스",
+  "description": "타워 배치와 전략으로 웨이브를 막는 모바일 디펜스 게임.",
+  "genre": ["Tower Defense", "Strategy"],
   "gamePlatform": ["Android", "iOS"],
   "applicationCategory": "Game",
   "operatingSystem": "Android, iOS",
@@ -545,7 +545,7 @@ import Image from 'next/image';
 
 <Image
   src="/images/game_0001/hero.jpg"
-  alt="던전 타이쿤 퍼즐RPG 메인 이미지"
+  alt="심플 타워 디펜스 메인 이미지"
   width={1200}
   height={630}
   priority  // LCP 이미지에 적용
@@ -715,7 +715,7 @@ apps/web/
       {
         "game_id": "game_0001",
         "banner_image": "/promo/game_0001_banner.png",
-        "message": "던전 타이쿤 플레이어 전용 보너스!",
+        "message": "심플 타워 디펜스 플레이어 전용 보너스!",
         "reward_code": "XPROMO_0003_0001"
       }
     ]

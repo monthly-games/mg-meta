@@ -1,0 +1,15 @@
+spine2d_style:
+  silhouette_priority: true
+  timing:
+    idle: "breath_4s + micro_shift"
+    walk: "readable_steps + hip_sway_subtle"
+    attack: "anticipation_8f + strike_4f + recovery_10f"
+    ultimate: "pose_hold_12f + camera_shake_light"
+  hit_reaction: ["light", "heavy", "stagger"]
+  emotion_motions: ["smirk", "annoyed", "laugh", "sigh"]
+  forbid: ["sexualized_pose", "explicit_gesture"]
+export:
+  spine: ["json", "atlas", "png"]
+  naming:
+    animations: "snake_case"
+    skins: "skin_*"
